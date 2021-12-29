@@ -4,15 +4,26 @@ import './App.css'
 import Header from './Header'
 import PlanetInfo from './PlanetInfo'
 import Data from './data/data.json'
+import Image from './images/planet-earth.svg'
 
 function App() {
    const [planetData, setPlanetData] = useState(Data[0])
-   console.log(planetData)
+   const [planetImage, setPlanetImage] = useState(Image)
+   const [planetColor, setPlanetColor] = useState(Data[0].name)
 
    return (
-      <div className="App">
-         <Header setPlanetData={setPlanetData} />
-         <PlanetInfo planetData={planetData} />
+      <div className="App background">
+         <Header
+            setPlanetData={setPlanetData}
+            setPlanetImage={setPlanetImage}
+            setPlanetColor={setPlanetColor}
+         />
+         <PlanetInfo
+            planetData={planetData}
+            planetImage={planetImage}
+            setPlanetImage={setPlanetImage}
+            planetColor={planetColor}
+         />
       </div>
    )
 }
