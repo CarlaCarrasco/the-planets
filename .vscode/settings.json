@@ -1,3 +1,5 @@
 {
-    "jupyter.changeDirOnImportExport": true
+    "jupyter.changeDirOnImportExport": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs":"active"
 }

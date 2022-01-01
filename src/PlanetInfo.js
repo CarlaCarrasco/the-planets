@@ -1,5 +1,4 @@
 import React from 'react'
-import { useState } from 'react'
 import PlanetImage from './PlanetImage'
 import SideColumn from './SideColumn'
 import BottomInfo from './BottomInfo'

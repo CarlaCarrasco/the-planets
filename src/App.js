@@ -4,7 +4,7 @@ import './App.css'
 import Header from './Header'
 import PlanetInfo from './PlanetInfo'
 import Data from './data/data.json'
-import Image from './images/planet-earth.svg'
+import Image from './images/planet-mercury.svg'
 
 function App() {
    const [planetData, setPlanetData] = useState(Data[0])

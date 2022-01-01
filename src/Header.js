@@ -8,7 +8,7 @@ const Header = ({ setPlanetData, setPlanetImage, setPlanetColor }) => {
       setPlanetColor(Data[planet].name)
    }
    return (
-      <nav className="py-2 md:py-4 border-b-2 text-white">
+      <nav className="py-2 md:py-4 border-b-2 border-dark-gray text-white">
          <div className="container px-4 mx-auto md:flex md:items-center">
             <div className="flex justify-between items-center">
                <a className="font-bold text-xl">The Planets</a>
