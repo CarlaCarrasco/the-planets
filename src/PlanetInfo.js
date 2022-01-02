@@ -13,7 +13,7 @@ const PlanetInfo = ({
    //const [planetImage, setPlanetImage] = useState(Image)
    return (
       <div className="p-7 text-white mx-7">
-         <div className="grid grid-cols-2 gap-4 m-auto">
+         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 m-auto">
             <PlanetImage image={planetImage} />
             <SideColumn
                name={planetData.name}
